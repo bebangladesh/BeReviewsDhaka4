@@ -174,24 +174,24 @@ ul li {
  * 3.4 Helper Class: button
  */
  /* General button style (reset) */
-.btn {
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-  background: none;
-  cursor: pointer;
-  padding: 25px 80px;
-  display: inline-block;
-  margin: 15px 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+ .btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 55px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .btn:after {
@@ -222,8 +222,10 @@ ul li {
 }
 /* Button 1 */
 .btn-1 {
-  border: 3px solid #fff;
-  color: #fff;
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 5px;
 }
 
 /* Button 1e */
