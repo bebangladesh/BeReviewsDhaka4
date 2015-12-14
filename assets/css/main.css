@@ -474,6 +474,7 @@ ul li {
 }
 .speaker img{
   border-radius: 50%;
+  max-height: 300px;
 }
 .speaker img:hover {
   opacity: .7;
@@ -514,20 +515,38 @@ ul li {
 /* 
  * 6.7 Section: Schedule
  */
-.partner {
+.sponsor {
   background-color: #f8f8f8;
 }
+
 .partner .partner-box {
   display: block;
-  opacity: 0.3;
   height: 150px;
   width: 150px;
   margin: 25px auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
 }
+
 .partner .partner-box:hover {
   opacity: 1;
+  filter:none;
+  -webkit-filter:none;
+}
+.partner .sponsor-box-1{
+  background: url(../images/sponsors/sekailab.png) no-repeat center center/contain;
+}
+.partner .sponsor-box-2{
+  background: url(../images/sponsors/magnitodigital.png) no-repeat center center/contain;
+}
+.partner .sponsor-box-3{
+  background: url(../images/sponsors/shapebootstrap.png) no-repeat center center/contain;
+  min-width: 215px;
+}
+.partner .sponsor-box-4{
+  background: url(../images/sponsors/graygrids.png) no-repeat center center/contain;
 }
 .partner .partner-box-1 {
   background: url(../images/partner/partner-1.png) no-repeat center center/contain;
@@ -543,15 +562,10 @@ ul li {
 }
 .partner .partner-box-5 {
   background: url(../images/partner/partner-5.png) no-repeat center center/contain;
+  min-width: 225px;
 }
 .partner .partner-box-6 {
   background: url(../images/partner/partner-6.png) no-repeat center center/contain;
-}
-.partner .partner-box-7 {
-  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
-}
-.partner .partner-box-8 {
-  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
 
 /* 
@@ -612,6 +626,12 @@ ul li {
   margin: 0;
   width: 100%;
 }
+.location{
+  margin-top: -90px;
+}
+.location .section-title{
+  text-align: left;
+} 
 
 @media (min-width: 768px) {
   .grid-item-sm-6 {
