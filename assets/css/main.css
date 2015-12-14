@@ -536,17 +536,17 @@ ul li {
   -webkit-filter:none;
 }
 .partner .sponsor-box-1{
-  background: url(../images/sponsors/sekailab.png) no-repeat center center/contain;
+  background: url(../images/partner/sekailab.png) no-repeat center center/contain;
 }
 .partner .sponsor-box-2{
-  background: url(../images/sponsors/magnitodigital.png) no-repeat center center/contain;
+  background: url(../images/partner/magnitodigital.png) no-repeat center center/contain;
 }
 .partner .sponsor-box-3{
-  background: url(../images/sponsors/shapebootstrap.png) no-repeat center center/contain;
+  background: url(../images/partner/shapebootstrap.png) no-repeat center center/contain;
   min-width: 215px;
 }
 .partner .sponsor-box-4{
-  background: url(../images/sponsors/graygrids.png) no-repeat center center/contain;
+  background: url(../images/partner/graygrids.png) no-repeat center center/contain;
 }
 .partner .partner-box-1 {
   background: url(../images/partner/partner-1.png) no-repeat center center/contain;
