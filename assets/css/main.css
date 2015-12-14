@@ -662,7 +662,7 @@ ul li {
   .grid-item-md-3 {
     width: 25%;
   }
-  @media (min-width: 300px){
+  @media (max-width: 500px){
     .site-header .intro h1 {
       font-size: 30px;
 }
